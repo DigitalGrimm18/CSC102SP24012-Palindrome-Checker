@@ -1,0 +1,46 @@
+<!--Code for CSC102 Sp 2024 Event Driven Programming
+    written by: Daniel Diaz
+                dandiaz2@uat.edu
+                24March2024
+    -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Move That Meme</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #420505;
+      text-align: center;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      border: none;
+      border-radius: 5px;
+      margin: 10px;
+    }
+    #meme {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 200px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Move That Jpeg</h1>
+  <img id="meme" src="Democracy.jpg" alt="Helldiver">
+  <!-- Start button to initiate movement -->
+  <button id="startBtn">Start</button>
+  <!-- Stop button to halt movement -->
+  <button id="stopBtn" disabled>Stop</button>
+
+  <script src="Eventcode.js"></script>
+</body>
+</html>
